@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: white;
+            margin: 0;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            color: #222;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 15px;
+            padding: 30px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Gallery</h1>
+    </header>
+
+    <div class="gallery">
+        <img src="https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1-1500x1000.jpg" alt="img1">
+        <img src="https://th.bing.com/th/id/OIP.z4buI3YGP6kUsfB4gSY5ygHaEn?w=280&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="img2">
+        <img src="https://th.bing.com/th/id/OIP.4wzMzh_n5LQfuvocP9MmAwHaE7?w=162&h=150&c=6&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="img3">
+        <img src="https://th.bing.com/th/id/OIP.XmU8X3JRhMvv9CxWkSTqFAHaEO?w=224&h=150&c=6&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="img4">
+        <img src="https://th.bing.com/th/id/OIP.q9sbVXCb85wBPMgqum8KjQHaE7?w=265&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="img5">
+        <img src="https://th.bing.com/th/id/OIP.LKq86A8SZ1pbwwywMuJSNAHaEJ?w=249&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="img6">
+        <img src="https://th.bing.com/th/id/OIP.5mMeFn1_mEn_G3OC8k9s7wHaEK?w=278&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="img7">
+        <img src="https://th.bing.com/th/id/OIP.5nH9vXwqCc0gprzPu36TywHaE0?w=298&h=194&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="img8">
+        <img src="https://th.bing.com/th/id/OIP.d3jfjNqFUSww1y7zDX7sHQHaE8?w=222&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="img9">
+    </div>
+</body>
+</html>

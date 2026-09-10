@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1.basic HTML</title>
+    <style>
+        body {
+            margin: 0;
+            background: #1635e4;
+            color: #222;
+            text-align: center;
+        }
+
+        header {
+            background: #6075ec;
+            color: white;
+            padding: 30px;
+        }
+
+        header h1 {
+            color: white;
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        .box {
+            background: white ;
+            width: 600px ;
+            margin: 30px auto;
+            padding: 40px;
+            border-radius: 20px;
+        }
+        
+        .circle {
+            width: 100px;
+           height: 100px;
+            background: #1635e4;
+            color: white;
+            border-radius:50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;     
+            font-size: 40px;
+        }
+
+        h1 {
+            color: #1635e4;
+        }
+
+        .button {
+            display: inline-flexbox;
+            background: #1635e4;
+            color: white;                                               
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin: 15px;
+            transition: 0.3s;
+        }
+
+        .button:hover  {  
+            background-color: red;
+            transition: scale(1.05);
+        }
+
+        .skills:hover {
+            background-color: red;
+            transition: scale(1.05);
+        }
+
+        .skills {
+            display: inline-block;
+            background: #1635e4;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 78px;
+            margin: 15px;
+        }
+
+        footer {
+            color: white;
+            padding: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+    <h1><b>Welcome to my Website</b></h1> 
+    <p> My Personal Portfolio</p>
+    </header>
+
+    <div class="box">
+        <div class="circle">T</div>
+        <h1> About Me</h1>
+        <p>Hello! My name is <b>Tanisha Sohani</b>. I am Learning HTML, CSS and interested in Web Development.</p>
+        <a href="resume.htm" class="button">Learn More</a>
+        <h1> My Skills</h1>
+        <div class="Skills">
+           <div class="skills"><b>HTML</b></div>
+           <div class="skills"><b>CSS</b></div>
+           <div class="skills"><b>Python</b></div>
+           <div class="skills"><b>Javascript</b></div>
+        </div>
+    </div>
+    <footer>
+            @2026 Tanisha | My First Website.
+    </footer>
+
+</body>
+</html>
