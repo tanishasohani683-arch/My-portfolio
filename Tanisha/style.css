@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f5f6f7;
+    background: #e3e6e9;
     color: rgb(92, 6, 6);
     line-height: 1.6;
 }
@@ -129,8 +129,8 @@ header {
 
 
 .profile img {
-    width: 320px;
-    height: 320px;
+    width: 420px;
+    height: 420px;
     object-fit: cover;
 
     border-radius: 50%;
@@ -169,7 +169,6 @@ header {
     display: flex;
     align-items: center;
     gap: 60px;
-    background-color: #f7a3a3;
 }
 
 .about-image img {
@@ -346,7 +345,7 @@ header {
 .contact-info,
 .contact-form {
     flex: 1;
-    background-color: #05345f;
+    background-color: #e3e6e9;
 }
 
 .contact-info h3 {
@@ -356,7 +355,7 @@ header {
 
 .contact-info p {
     margin-bottom: 15px;
-    color: #555;
+    color: #080808;
 }
 
 .contact-form {
