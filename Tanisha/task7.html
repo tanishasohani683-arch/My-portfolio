@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #eef2ff;
+            padding: 30px;
+        }
+
+        h1 {
+           text-align: center;
+           color: #0f3554; 
+        }
+
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #1a3c5e;
+            text-align: center;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #12344e;
+            color: white;
+        }
+
+        td {
+            background-color: #e6eaf5;
+            color: #1a3c5e;
+        }
+
+        .total-row td , .total-row th {
+            background-color: #12344e;
+            color: white;
+            font-weight: bold;
+        }
+
+        .result {
+            width: 70%;
+            margin: 10px auto;
+            font-weight: bold;
+            color: #12344e;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Student Marksheet</h1>
+
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Maximum</th>
+            <th>Obtained</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>100</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>100</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>100</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>100</td>
+            <td>75</td>
+        </tr>
+        <tr class="total-row">
+            <td>Total</td>
+            <td>400</td>
+            <td>330</td>
+        </tr>    
+    </table>
+
+    <div class="result">Result: PASS</div>
+</body>
+</html>

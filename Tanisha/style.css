@@ -12,10 +12,6 @@ body {
     line-height: 1.6;
 }
 
-a {
-    text-decoration: upperline;
-}
-
 header {
     background: #222;
     position: sticky;
@@ -84,9 +80,10 @@ header {
 }
 
 .home h1 {
-    font-size: 55px;
-    color: #111827;
+    font-size: 50px;
+    color: #092168;
     margin: 5px 0;
+  
 }
 
 .home h2 {
@@ -217,7 +214,7 @@ header {
     padding: 25px;
     border-radius: 10px;
 
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 20px rgba(240, 77, 77, 0.08);
 }
 
 .skill-card h3 {
@@ -228,7 +225,7 @@ header {
     width: 100%;
     height: 25px;
 
-    background: #e21fd2;
+    background: #ece8ec;
 
     border-radius: 20px;
     overflow: hidden;
@@ -270,7 +267,7 @@ header {
 }
 
 .project-card {
-    background: rgb(233, 209, 71);
+    background: rgb(176, 152, 243);
 
     padding: 30px;
 
@@ -307,35 +304,6 @@ header {
     font-weight: bold;
 }
 
-.education-section {
-    background: rgb(230, 116, 173);
-}
-
-.education-container {
-    display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     gap: 3opx;
-}
-
-.education-card {
-    background: white;
-    padding: 30px;
-    border-left: 5px solid #0a0a0a;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-}
-
-.education-card h3 {
-    margin-bottom: 10px;
-}
-
-.education-card p {
-    color: #555;
-}
-
-.education-card span {
-    color: #00a8bd;
-    font-weight: bold;
-}
 
 .contact-container {
     display: flex;
@@ -444,9 +412,6 @@ footer p {
         grid-template-columns: 1fr 1fr;
     }
 
-    .education-container {
-        grid-template-columns: 1fr 1fr;
-    }
 
     .contact-container {
         grid-template-columns: 1fr 1fr;
@@ -478,8 +443,7 @@ footer p {
     }
 
     .skills-container,
-    .project-container,
-    .education-container {
+    .project-container {
         grid-template-columns: 1fr;
     }
 

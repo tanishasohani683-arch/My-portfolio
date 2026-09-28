@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #d9eafc;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .box {
+            background: #f8fbff;
+            width: 400px;
+            padding: 25px 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .box h2 {
+            color: #0a3d62;
+            margin-top: 0;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            color: #050505;
+            font-size: 14px;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"], select, textarea {
+            width: 100%;
+            padding: 9px;
+            border: 1.5px solid #5d6d7e;
+            border-radius: 3px;
+            outline: none;
+            box-sizing: border-box;
+            background: transparent;
+        }
+
+        .gender {
+
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 5px;
+
+
+            margin-bottom: 16px;
+
+
+        }
+
+        .gender-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 50%;
+        }
+
+        textarea {
+            height: 80px;
+            resize: vertical;
+        }
+
+        .btn {
+            width: 100%;
+            background-color: #0a4a4a;
+            color: white;
+            border: none;
+            padding: 12px;
+            margin-top: 15px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .btn:hover {
+            background-color: #083838;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Student Registration</h2>
+
+        <form>
+            <label>Name</label>
+            <input type="text" required>
+
+            <label>Email</label>
+            <input type="email" required>
+
+            <label>Password</label>
+            <input type="text" required>
+
+            <label>Gender</label>
+            <div class="Gender"></div>
+                <div class="gender-row">Male <input type="radio" name="gender"></div>
+                <br><br>
+                <div class="gender-row">Female <input type="radio" name="gender"></div>
+
+            <label>Course</label>
+            <select>
+                <option>BCA</option>
+                <option>MCA</option>
+                <option>B.tech</option>
+                <option>B.Com</option>
+            </select>
+            
+            <label>Address</label>
+            <textarea></textarea>
+            <button class="btn" type="submit">Register</button>
+
+        </form>
+    </div>
+</body>
+</html>
